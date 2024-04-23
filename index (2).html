@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle PPY</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Establecer la imagen como fondo de pantalla -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('https://i0.wp.com/www.juegoideas.com/wp-content/uploads/2022/08/Juegos-de-Palabras-Parte-1-juegoideas.com_.png?resize=600%2C338&ssl=1'); /* URL de la imagen de muestra */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <script src="scrpt.js" defer></script>
+</head>
+
+<body>
+    <!-- Contenido de la página -->
+    <div style="background-color: rgba(255, 255, 255, 0.5); padding: 20px;">
+        <h1>WORDLE PPY</h1>
+        <input type="text" id="guess-input" placeholder="Introduce tu conjetura">
+        <button id="guess-button">Adivinar</button>
+        <div id="grid"></div>
+        <p id="guesses"></p>
+    </div>
+</body>
+
+</html>
